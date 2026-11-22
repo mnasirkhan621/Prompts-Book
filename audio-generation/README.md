@@ -22,9 +22,11 @@ Designed by **Muhammad Nasir Khan**, this engine decodes generative audio style-
 ### 2. Metatags & Song Architecture
 * [Song Structure Metatags Catalog](metatags-and-structure/structure-metatags.md) — Complete arrangement directives: `[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Post-Chorus]`, `[Bridge]`, `[Drop]`, `[Instrumental Break]`, `[Outro]`, `[End]`.
 * [Inline Vocal Performance Cues](metatags-and-structure/vocal-performance-cues.md) — Vocal register directives: `[Whispered]`, `[Spoken Word]`, `[Falsetto]`, `[Powerhouse Vocals]`, `[Stacked Harmonies]`.
+* [Dynamic Musical Intensity Tags](metatags-and-structure/dynamic-intensity-cues.md) — Volume dynamics and rhythmic release cues: `[Crescendo]`, `[Decrescendo]`, `[Drop Hit]`.
 
 ### 3. Production Field Guide
 * [Style-Mesh & Escaping Pop Gravity](production-field-guide/style-mesh-and-pop-gravity.md) — The mental model of Suno, counter-conditioning anti-pop tags, weak vs. strong tag physics, and the 60-second decay rule.
+* [Frequency Allocation & Voiceover Masking](production-field-guide/frequency-mixing-guide.md) — EQ frequency spectrum partitioning to prevent AI music from overpowering spoken video dialogue.
 * [Advanced Parameters & Audio Mastering](production-field-guide/advanced-parameters-and-mastering.md) — Tempo locks, harmonic key specifications, stem splitting, and vocal sidechain EQ for video background music.
 * [Lyric Writing & Meter Rules](production-field-guide/lyric-writing-rules.md) — Syllabic meter balancing, phonetic spelling for names, and pause/staccato formatting.
 
@@ -42,12 +44,3 @@ Designed by **Muhammad Nasir Khan**, this engine decodes generative audio style-
 * [Country & Bluegrass](style-prompts-by-genre/country.md) — Modern Country, Outlaw, Bluegrass.
 * [Regional Mexican](style-prompts-by-genre/regional-mexican.md) — Corridos Tumbados, Norteño.
 * [Viral Social Packs](style-prompts-by-genre/viral-and-social-packs.md) — TikTok Reels, Gym Workout, Emotional Heartbreak.
-
----
-
-## ⚡ The Suno Master Quick Formula
-
-```text
-Style Box (Max 950 Chars):
-[Era] + [Genre / Fusion] + [Mood] + [3-4 Key Instruments] + [Vocal Style] + [Production Aesthetic] + [BPM: XXX] + [Key: X Minor/Major]
-```

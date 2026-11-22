@@ -13,16 +13,19 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - MCSLA Video Framework: Model, Camera, Subject, Look, Action/Audio. (video-generation/frameworks/mcsla-framework.md)
 - Multi-Model Dialect Matrix: Syntactical compilers for Kling, Runway Gen-3, OpenAI Sora, and Luma. (video-generation/frameworks/model-dialect-matrix.md)
 - Audio-to-Video BPM-to-FPS Sync Engine: Mathematical lookup tables mapping musical BPM to video frame cuts at 24fps, 30fps, and 60fps. (video-generation/frameworks/bpm-to-fps-sync.md)
-- Image-to-Video (I2V) Motion-First Rules: Prompting only temporal deltas; zero re-description of existing image contents. (video-generation/frameworks/image-to-video-rules.md)
-- Anti-Slop Observable Physics: Replacing unmeasurable marketing adjectives with sensor-measurable physical properties. (video-generation/frameworks/anti-slop-guidelines.md)
-- Camera & Optics Encyclopedia: 40+ named presets, focal lengths (24mm-400mm), apertures, focus locks, and camera-emotion synchronization. (video-generation/camera-and-cinematography/camera-controls.md)
+- Key-to-Fill Lighting Ratios: Contrast control ratios (1:1 to 8:1). (video-generation/frameworks/lighting-key-ratios.md)
+- Temporal Consistency & Multi-Shot Rules: Decoupling character identity from motion dynamics. (video-generation/frameworks/temporal-consistency-rules.md)
+- Shutter Angles & Motion Blur: 180-degree rule and kinetic clarity. (video-generation/camera-and-cinematography/shutter-speed-and-motion-blur.md)
 - Suno 7-Element Audio Architecture: Genre, Mood, Instrumentation, Vocal Style, Production, Technical BPM/Key, Structure. (audio-generation/prompt-anatomy/seven-elements-formula.md)
 - Udio v1.5 Manual Mode Guide: Weighted descriptor clouds, manual mode sliders, and modular generation. (audio-generation/prompt-anatomy/udio-prompting-guide.md)
-- Suno Metatags & Arrangement: Structural bracket tags and inline vocal performance cues. (audio-generation/metatags-and-structure/structure-metatags.md)
-- Style-Mesh & Escaping Pop Gravity: Mitigating AI default biases and prompt decay. (audio-generation/production-field-guide/style-mesh-and-pop-gravity.md)
+- Frequency Spectrum Allocation: Audio EQ partitioning for video voiceovers. (audio-generation/production-field-guide/frequency-mixing-guide.md)
+- Musical Dynamic Intensity Tags: Tension, drop hits, and volume modulation. (audio-generation/metatags-and-structure/dynamic-intensity-cues.md)
+- Aspect Ratio Guide: Resolution and geometric framing standards. (visuals-and-storyboards/aspect-ratio-guide.md)
 
 ## Executable Tools & MCP
 - Python Prompt Linter: tools-and-workflows/prompt_linter.py
+- Unit Test Suite: tools-and-workflows/test_prompt_linter.py
+- Camera Preset Search CLI: tools-and-workflows/camera_preset_search.py
 - Interactive Prompt Compiler: tools-and-workflows/prompt_compiler.py
 - Native Model Context Protocol (MCP) Server: tools-and-workflows/mcp-server/server.py
 
@@ -31,5 +34,3 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Master Audio Guide: audio-generation/README.md
 - 1-Page Cheatsheet: tools-and-workflows/quick-reference-cheatsheet.md
 - Master Prompt Generator: tools-and-workflows/master-prompt-generator.md
-- Genre Suites: video-generation/prompts-by-genre/
-- Style Prompts: audio-generation/style-prompts-by-genre/

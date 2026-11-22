@@ -18,12 +18,15 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [The MCSLA Framework](frameworks/mcsla-framework.md) — The 5-layer prompt architecture: *Model, Camera, Subject, Look, Action/Audio*.
 * [Multi-Model Video Dialect Matrix](frameworks/model-dialect-matrix.md) — Syntactical compilers for Kling 3.0, Runway Gen-3 Alpha, OpenAI Sora, Luma Dream Machine, and Seedance.
 * [Audio-to-Video BPM-to-FPS Sync Engine](frameworks/bpm-to-fps-sync.md) — Mathematical rhythm tables calculating exact video cut frame numbers for musical tempos (24fps, 30fps, 60fps).
+* [Key-to-Fill Contrast Ratios](frameworks/lighting-key-ratios.md) — Photometric contrast ratios (1:1 clinical to 8:1 chiaroscuro noir).
+* [Temporal Consistency & Multi-Shot Continuity](frameworks/temporal-consistency-rules.md) — Two-block character identity and motion bucket rules.
 * [Image-to-Video (I2V) Motion-First Rules](frameworks/image-to-video-rules.md) — The motion-delta doctrine: describe only changes, never what is already in the starting frame.
 * [Anti-Slop & Observable Physics](frameworks/anti-slop-guidelines.md) — Banning unmeasurable adjectives (*stunning, epic*) in favor of light meter and optical sensor physics.
 
 ### 2. Camera, Optics & Cinematography
 * [Master Camera Movement Catalog](camera-and-cinematography/camera-controls.md) — 40+ industry-standard named movements (Dolly, Crane, FPV Drone, Snorricam, Orbit, Whip Pan).
 * [Lens & Aperture Guide](camera-and-cinematography/lens-and-aperture-guide.md) — Exact focal lengths (24mm–400mm), apertures, focus-lock clauses, and rectilinear integrity clauses.
+* [Shutter Angles & Motion Blur](camera-and-cinematography/shutter-speed-and-motion-blur.md) — 180-degree rule, 90-degree action crispness, and 360-degree dream trails.
 * [Camera-Emotion Synchronization](camera-and-cinematography/camera-emotion-sync.md) — Pairing camera stability and travel speed to the character's psychological state.
 
 ### 3. Motion Design & After Effects Hybrid
@@ -40,17 +43,3 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [Commercial & Product Showcase](prompts-by-genre/commercial-and-product.md) — Luxury chronograph macro reveals, athletic footwear drops, espresso crema.
 * [Nature & Wildlife Documentary](prompts-by-genre/nature-and-documentary.md) — Himalayan snow leopard ridge stalks, supercells, rainforest frog macro splashes.
 * [Music Videos & Dance](prompts-by-genre/music-and-dance.md) — Underground hip-hop cyphers, contemporary solo leaps with volumetric stage haze.
-
----
-
-## ⚡ The MCSLA Standard Quick Formula
-
-```text
-Model: [Engine] | Aspect: [Ratio] | Duration: [Xs] | FPS: [24/30]
-
-[Subject & Physical Attire] in [Atmospheric Environment].
-[Single Dominant Action & Micro-Movement].
-Camera: [Named Movement Preset], [Focal Length] [Aperture], [Travel Details].
-Look: [Lighting Temperature / Key Source], [Color Grade Palette], [Lens Characteristics].
-Audio: [Spoken Dialogue in Quotes], [Ambient Tone], [Synchronized Sound Effects].
-```
