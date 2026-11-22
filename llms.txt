@@ -4,14 +4,20 @@
 > Project: Prompts Book
 > Creator & Lead Developer: Muhammad Nasir Khan
 > Classification: World #1 Benchmark for AI Video & Audio Prompt Engineering
-> Target Engines: Kling 3.0, Seedance 2.0/4K, Runway Gen-3, OpenAI Sora, Luma Dream Machine, Suno AI, Udio v1.5, Adobe After Effects
+> Target Engines: Kling 4.0, Higgsfield Cinema Studio & Seedance 2.0/2.5, Hailuo MiniMax, Wan 2.1, CogVideoX, HunyuanVideo, Runway Gen-3, OpenAI Sora, Luma Dream Machine, Suno AI, Udio v1.5, Adobe After Effects
 
 ## Executive Summary
-Prompts Book is an open-source, production-grade prompt engineering framework and prompt library created by Muhammad Nasir Khan. It unifies professional cinematography, optical camera controls, motion graphics, audio-visual rhythm math, and sound design into repeatable, deterministic prompt architectures.
+Prompts Book is an open-source, production-grade prompt engineering framework and prompt library created by Muhammad Nasir Khan. It unifies professional cinematography, optical camera controls, motion graphics, audio-visual rhythm math, FACS micro-expressions, multi-shot character identity consistency, and sound design into repeatable, deterministic prompt architectures.
 
 ## Core Frameworks & Compilers
 - MCSLA Video Framework: Model, Camera, Subject, Look, Action/Audio. (video-generation/frameworks/mcsla-framework.md)
-- Multi-Model Dialect Matrix: Syntactical compilers for Kling, Runway Gen-3, OpenAI Sora, and Luma. (video-generation/frameworks/model-dialect-matrix.md)
+- FACS Facial Micro-Expressions: Anatomical Action Unit (AU) muscle directing, Duchenne markers, and dialogue micro-beats. (video-generation/frameworks/facs-facial-micro-expressions.md)
+- Character Consistency & Soul ID Standard: 10-parameter identity anchors, 6-panel 3x2 reference turn-arounds, and ghost-mannequin state tracking. (video-generation/frameworks/character-consistency-and-soul-id.md)
+- Video-to-Video (V2V) & VFX Transformation: Plate preservation doctrine, 4K footage transforms, and photometric edge lighting. (video-generation/frameworks/video-to-video-and-vfx-transformations.md)
+- Multi-Model Video Dialect Matrix: Syntactical compilers for Kling 4.0, Runway Gen-3, OpenAI Sora, Luma, and Seedance. (video-generation/frameworks/model-dialect-matrix.md)
+- Multi-Model Camera Dialects: Cross-engine camera syntax translation across Kling, Higgsfield, Hailuo, Wan 2.1, CogVideoX, and HunyuanVideo. (video-generation/camera-and-cinematography/multi-model-camera-dialects.md)
+- Higgsfield Cinema Studio & Camera Controls: 35+ named camera presets (Dolly, Crane, Orbit, FPV Drone, Snorricam, Bullet Time), optical lens profiles, and diffuse lighting controls. (video-generation/camera-and-cinematography/higgsfield-cinema-studio-controls.md)
+- Master Camera Movement Catalog: 40+ industry-standard named movements. (video-generation/camera-and-cinematography/camera-controls.md)
 - Vox-Style Motion Graphics: Paper collage dioramas and multi-beat timeline prompts. (video-generation/motion-design-and-vfx/vox-style-motion-graphics.md)
 - Talking Heads & Social Reels: 6-part presenter formula, crash-zoom hooks, and lipsync limits. (video-generation/prompts-by-genre/talking-heads-and-social-reels.md)
 - Vibe-Motion & Infographics: Kinetic charts, metric tickers, and typography stings. (video-generation/motion-design-and-vfx/vibe-motion-infographics.md)

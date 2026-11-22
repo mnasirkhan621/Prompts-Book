@@ -6,7 +6,7 @@
 
 ## 🏛️ Overview
 
-The **Video Generation Engine** of **Prompts Book** bridges high-end film direction with modern generative video diffusion models (Kling 3.0, Seedance 2.0/4K, Runway Gen-3, OpenAI Sora, Luma Dream Machine).
+The **Video Generation Engine** of **Prompts Book** bridges high-end film direction with modern generative video diffusion models (Higgsfield Cinema Studio & Seedance 2.0/2.5, Kling 4.0, Hailuo MiniMax, Wan 2.1, CogVideoX, HunyuanVideo, Runway Gen-3, OpenAI Sora, Luma Dream Machine).
 
 Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, jitter, and hallucinations common to naive prompting by introducing strict physical, optical, temporal, and rhythmic constraints.
 
@@ -16,7 +16,10 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 
 ### 1. Architectural Frameworks
 * [The MCSLA Framework](frameworks/mcsla-framework.md) — The 5-layer prompt architecture: *Model, Camera, Subject, Look, Action/Audio*.
-* [Multi-Model Video Dialect Matrix](frameworks/model-dialect-matrix.md) — Syntactical compilers for Kling 3.0, Runway Gen-3 Alpha, OpenAI Sora, Luma Dream Machine, and Seedance.
+* [Facial Action Coding System (FACS)](frameworks/facs-facial-micro-expressions.md) — Anatomical muscle-level micro-expression directing (AU codes, Duchenne smiles, dialogue micro-beats).
+* [Character Consistency & Soul ID Standard](frameworks/character-consistency-and-soul-id.md) — 10-parameter identity anchors, 6-panel 3x2 reference turn-arounds, and ghost-mannequin state tracking.
+* [Video-to-Video (V2V) & VFX Transformation](frameworks/video-to-video-and-vfx-transformations.md) — Plate preservation doctrine, 4K footage transforms, and photometric edge lighting.
+* [Multi-Model Video Dialect Matrix](frameworks/model-dialect-matrix.md) — Syntactical compilers for Kling 4.0, Runway Gen-3, OpenAI Sora, Luma, and Seedance.
 * [Audio-to-Video BPM-to-FPS Sync Engine](frameworks/bpm-to-fps-sync.md) — Mathematical rhythm tables calculating exact video cut frame numbers for musical tempos (24fps, 30fps, 60fps).
 * [Key-to-Fill Contrast Ratios](frameworks/lighting-key-ratios.md) — Photometric contrast ratios (1:1 clinical to 8:1 chiaroscuro noir).
 * [Temporal Consistency & Multi-Shot Continuity](frameworks/temporal-consistency-rules.md) — Two-block character identity and motion bucket rules.
@@ -24,6 +27,8 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [Anti-Slop & Observable Physics](frameworks/anti-slop-guidelines.md) — Banning unmeasurable adjectives (*stunning, epic*) in favor of light meter and optical sensor physics.
 
 ### 2. Camera, Optics & Cinematography
+* [Higgsfield Cinema Studio & Camera Controls](camera-and-cinematography/higgsfield-cinema-studio-controls.md) — 35+ named camera presets (Dolly, Crane, Orbit, FPV Drone, Snorricam, Bullet Time), optical lens profiles, and diffuse lighting controls.
+* [Multi-Model Camera Dialects Matrix](camera-and-cinematography/multi-model-camera-dialects.md) — Cross-engine camera syntax translation across Kling, Higgsfield, Hailuo, Wan 2.1, CogVideoX, and HunyuanVideo.
 * [Master Camera Movement Catalog](camera-and-cinematography/camera-controls.md) — 40+ industry-standard named movements (Dolly, Crane, FPV Drone, Snorricam, Orbit, Whip Pan).
 * [Lens & Aperture Guide](camera-and-cinematography/lens-and-aperture-guide.md) — Exact focal lengths (24mm–400mm), apertures, focus-lock clauses, and rectilinear integrity clauses.
 * [Shutter Angles & Motion Blur](camera-and-cinematography/shutter-speed-and-motion-blur.md) — 180-degree rule, 90-degree action crispness, and 360-degree dream trails.

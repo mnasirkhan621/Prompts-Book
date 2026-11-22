@@ -25,20 +25,27 @@ Whenever the user inputs an idea (e.g., "make a sci-fi video of a spaceship", "I
 When generating a video prompt, you MUST enforce:
 1. **The MCSLA Five-Layer Structure** (`video-generation/frameworks/mcsla-framework.md`):
    - `[M] Model Header`: Engine, Aspect Ratio, Duration, FPS.
-   - `[S] Subject`: Specific physical attire, posture, decomposed micro-expressions.
-   - `[L] Look & Lighting`: Light source (Kelvin), volumetric atmosphere, color grade, 35mm/anamorphic flares.
+   - `[S] Subject`: Specific physical attire, posture, decomposed micro-expressions via **FACS Action Units** (`video-generation/frameworks/facs-facial-micro-expressions.md`).
+   - `[L] Look & Lighting`: Light source (Kelvin), volumetric atmosphere, color grade, 35mm/anamorphic flares, diffuse parameter.
    - `[A] Action`: ONE dominant kinetic action + secondary physics (wind, smoke, water).
-   - `[C] Camera`: ONE primary named preset from `video-generation/camera-and-cinematography/camera-controls.md` + Focal Length + Aperture + Focus Lock.
+   - `[C] Camera`: ONE primary named preset from `video-generation/camera-and-cinematography/camera-controls.md` or `video-generation/camera-and-cinematography/higgsfield-cinema-studio-controls.md` + Focal Length + Aperture + Focus Lock.
    - `[Audio] Soundscape`: Spoken dialogue in quotes, ambient tone, synchronized sound design.
-2. **The Anti-Slop Directive** (`video-generation/frameworks/anti-slop-guidelines.md`):
+2. **Character Consistency & Soul ID Protocol** (`video-generation/frameworks/character-consistency-and-soul-id.md`):
+   - Decouple static identity descriptors from motion vectors.
+   - Use 6-panel 3x2 reference turn-around sheets on 18% neutral grey.
+3. **Video-to-Video (V2V) Preservation Doctrine** (`video-generation/frameworks/video-to-video-and-vfx-transformations.md`):
+   - For footage transformation, explicitly lock unmutated plate variables and mutate only the target element.
+4. **The Anti-Slop Directive** (`video-generation/frameworks/anti-slop-guidelines.md`):
    - NEVER use unmeasurable buzzwords: `stunning`, `epic`, `breathtaking`, `masterpiece`, `hyper-realistic`, `8k`.
    - Replace with optical physics (e.g. `sodium-vapor 2200K amber key`, `50mm F2.0 lens`, `rectilinear distortion-free`).
-3. **The I2V Motion-Delta Rule** (`video-generation/frameworks/image-to-video-rules.md`):
+5. **The I2V Motion-Delta Rule** (`video-generation/frameworks/image-to-video-rules.md`):
    - If animating an existing image, describe ONLY what moves, shifts, or catches light. NEVER re-describe static content.
-4. **Dialect Matching** (`video-generation/frameworks/model-dialect-matrix.md`):
-   - If Runway Gen-3: Use `[Camera]: ... [Action]: ... [Subject]: ...` colon format.
-   - If Sora: Use rich, continuous narrative prose.
-   - If Kling: Front-load subject and action in first 25 words.
+6. **Dialect Matching** (`video-generation/camera-and-cinematography/multi-model-camera-dialects.md`):
+   - Kling 4.0: Bracketed timeline `0-[X]s:` and Omni-Reference `@Video1` / `@Image1`.
+   - Higgsfield: Hardware rig presets (`Dolly In`, `Snorricam`, `FPV Drone`, `Levitation`).
+   - Hailuo / MiniMax: Conversational camera crew directions with amplitude and speed tags.
+   - Wan 2.1: Progressive linear spatial descriptions and pull-backs.
+   - Runway Gen-3: Colon syntax `[Camera]: ... [Action]: ...`.
 
 ---
 

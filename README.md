@@ -86,6 +86,9 @@ Prompts Book/
 │   ├── README.md                             <-- Video Generation Master Index
 │   ├── frameworks/
 │   │   ├── mcsla-framework.md                <-- The 5-Layer MCSLA Formula (Model, Camera, Subject, Look, Action)
+│   │   ├── facs-facial-micro-expressions.md  <-- Anatomical FACS Action Units, Duchenne Smiles & Micro-Beats
+│   │   ├── character-consistency-and-soul-id.md <-- Soul ID 10-Parameter Anchors & 6-Panel 3x2 Consistency Sheets
+│   │   ├── video-to-video-and-vfx-transformations.md <-- Plate Preservation Doctrine & 4K VFX Footage Transforms
 │   │   ├── model-dialect-matrix.md           <-- Syntactical Compilers (Runway Gen-3, Sora, Luma, Kling, Seedance)
 │   │   ├── bpm-to-fps-sync.md                <-- Mathematical Rhythm Tables (Audio BPM to Video Frame Cuts)
 │   │   ├── lighting-key-ratios.md            <-- Contrast Control Ratios (1:1 Clinical to 8:1 Noir)
@@ -93,6 +96,8 @@ Prompts Book/
 │   │   ├── image-to-video-rules.md           <-- Motion-First Delta Prompting for I2V
 │   │   └── anti-slop-guidelines.md           <-- Replacing Abstract Buzzwords with Observable Physics
 │   ├── camera-and-cinematography/
+│   │   ├── higgsfield-cinema-studio-controls.md <-- 35+ Named Presets, Optical Lens Profiles & Diffuse Lighting
+│   │   ├── multi-model-camera-dialects.md    <-- Cross-Engine Camera Translation (Kling, Hailuo, Wan, Cog, Hunyuan)
 │   │   ├── camera-controls.md                <-- 40+ Named Camera Movements & Exact Syntax
 │   │   ├── lens-and-aperture-guide.md        <-- Optical Specifications, FOVs & Focus Locks
 │   │   ├── shutter-speed-and-motion-blur.md  <-- 180° Rule, 90° Action Crispness, 360° Blur
