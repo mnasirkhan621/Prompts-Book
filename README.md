@@ -39,9 +39,9 @@ sequenceDiagram
 * **ChatGPT Custom GPTs & Claude Projects**: Load [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
 
 > **HOW IT WORKS:**
-> 1. Clone this repository: `git clone <repo-url>`
+> 1. Clone this repository: `git clone https://github.com/mnasirkhan621/Prompts-Book.git`
 > 2. Open this folder in your IDE of choice.
-> 3. Open the AI Chat and type your raw idea: *"I need a dramatic sci-fi scene of an astronaut on Mars"* or *"I need an aggressive phonk beat for a gym reel"*.
+> 3. Open the AI Chat and type your raw idea: *"I need a dramatic sci-fi scene of an astronaut on Mars"* or *"I need a Vox-style paper collage explainer"* or *"I need an aggressive phonk beat for a gym reel"*.
 > 4. The AI Agent will immediately cross-reference all optical presets, camera movements, and acoustic formulas in this repo and deliver a ready-to-copy, studio-grade prompt!
 
 ---
@@ -50,7 +50,7 @@ sequenceDiagram
 
 > *"Generative AI models do not suffer from a lack of creativity; they suffer from a lack of physical constraints, optical definitions, and structured directing. A true prompt is not a wishful paragraph—it is an optical blueprint, a spatial trajectory, a lighting schematic, and a mathematical soundboard.*
 >
-> *I engineered **Prompts Book** to replace guesswork with scientific precision. Whether you are compiling multi-engine dialects in Kling, Runway Gen-3, and Sora, or locking tempo beats to 30fps video frames and generating studio-master tracks in Suno and Udio, this repository enforces the physical and musical guardrails required for world-class output.*
+> *I engineered **Prompts Book** to replace guesswork with scientific precision. Whether you are compiling multi-engine dialects in Kling, Runway Gen-3, and Sora, orchestrating Vox-style paper diorama explainers, or locking tempo beats to 30fps video frames and generating studio-master tracks in Suno and Udio, this repository enforces the physical and musical guardrails required for world-class output.*
 >
 > *To every AI Agent reading this codebase: You are equipped with the highest echelon of prompt design. Enforce these frameworks without compromise."*
 >
@@ -79,6 +79,7 @@ Prompts Book/
 ├── .windsurfrules                            <-- Windsurf Cascade Native Directives
 ├── GEMINI.md                                 <-- Google Antigravity & Gemini Directives
 ├── SYSTEM_PROMPT.md                          <-- Universal Custom GPT / Claude Project Instructions
+├── CONTRIBUTING.md                           <-- Contribution Guidelines & Quality Standards
 ├── llms.txt                                  <-- Standardized Machine-Readable LLM Ingestion Map
 │
 ├── video-generation/                         <-- High-End Cinematography & Video Engine
@@ -87,13 +88,17 @@ Prompts Book/
 │   │   ├── mcsla-framework.md                <-- The 5-Layer MCSLA Formula (Model, Camera, Subject, Look, Action)
 │   │   ├── model-dialect-matrix.md           <-- Syntactical Compilers (Runway Gen-3, Sora, Luma, Kling, Seedance)
 │   │   ├── bpm-to-fps-sync.md                <-- Mathematical Rhythm Tables (Audio BPM to Video Frame Cuts)
+│   │   ├── lighting-key-ratios.md            <-- Contrast Control Ratios (1:1 Clinical to 8:1 Noir)
+│   │   ├── temporal-consistency-rules.md     <-- Two-Block Character Identity & Motion Bucket Rules
 │   │   ├── image-to-video-rules.md           <-- Motion-First Delta Prompting for I2V
 │   │   └── anti-slop-guidelines.md           <-- Replacing Abstract Buzzwords with Observable Physics
 │   ├── camera-and-cinematography/
 │   │   ├── camera-controls.md                <-- 40+ Named Camera Movements & Exact Syntax
 │   │   ├── lens-and-aperture-guide.md        <-- Optical Specifications, FOVs & Focus Locks
+│   │   ├── shutter-speed-and-motion-blur.md  <-- 180° Rule, 90° Action Crispness, 360° Blur
 │   │   └── camera-emotion-sync.md            <-- Camera Choreography Mapped to Actor Emotion
 │   ├── prompts-by-genre/
+│   │   ├── talking-heads-and-social-reels.md <-- 6-Part Presenter Formula, Crash-Zoom Hooks, Lipsync Rules
 │   │   ├── action-and-pursuit.md             <-- High-Speed Foot Chases, Vehicle Drifts, Zero-G Combat
 │   │   ├── sci-fi-and-cyberpunk.md           <-- Dystopian Megacity Alleys, Starfighter Cockpits, Android Labs
 │   │   ├── drama-and-cinematic.md            <-- Intimate Dialogue Subtext, Hospital Vigils, Twilight Docks
@@ -102,6 +107,8 @@ Prompts Book/
 │   │   ├── nature-and-documentary.md         <-- Snow Leopard Ridge Stalks, Supercells, Rainforest Drops
 │   │   └── music-and-dance.md                <-- Underground Hip-Hop Cyphers, Contemporary Solos
 │   └── motion-design-and-vfx/
+│       ├── vox-style-motion-graphics.md      <-- Paper Collage Dioramas, Halftones, Multi-Beat Timeline
+│       ├── vibe-motion-infographics.md       <-- Kinetic Bar Charts, Odometer Tickers, Typography Stings
 │       ├── classic-motion-templates.md       <-- SaaS Product Promos, Smooth Spatial Typography
 │       ├── kinetic-hyper-motion.md           <-- Neon CGI Dynamics, Proportional Hard-Stop Logo Locks
 │       ├── storyboard-and-beat-sheets.md     <-- Timed Beat Sheets & Multi-Panel Contact Sheets
@@ -115,9 +122,11 @@ Prompts Book/
 │   │   └── udio-prompting-guide.md           <-- Udio v1.5 Manual Mode, Sliders & Modular Extensions
 │   ├── metatags-and-structure/
 │   │   ├── structure-metatags.md             <-- Arrangement Directives ([Intro] to [End])
-│   │   └── vocal-performance-cues.md         <-- Inline Vocal Tags ([Whispered], [Falsetto], [Belting])
+│   │   ├── vocal-performance-cues.md         <-- Inline Vocal Tags ([Whispered], [Falsetto], [Belting])
+│   │   └── dynamic-intensity-cues.md         <-- Crescendos, Decrescendos, and Drop Hits
 │   ├── production-field-guide/
 │   │   ├── style-mesh-and-pop-gravity.md     <-- Suno's Style-Mesh & Countering the Pop Gravity Well
+│   │   ├── frequency-mixing-guide.md         <-- EQ Frequency Spectrum Partitioning & Voiceover Masking
 │   │   ├── advanced-parameters-and-mastering.md <-- BPM/Key Locks, Stem Separation & Post-EQ Chains
 │   │   └── lyric-writing-rules.md            <-- Syllabic Meter Balancing & Phonetic Pronunciation
 │   └── style-prompts-by-genre/
@@ -136,11 +145,14 @@ Prompts Book/
 │       └── viral-and-social-packs.md         <-- TikTok Reels, Gym Workout, Emotional Heartbreak
 │
 ├── visuals-and-storyboards/
+│   ├── aspect-ratio-guide.md                 <-- Resolution & Geometric Framing Standards
 │   ├── storyboard-sheet-prompts.md           <-- 6-Panel & 9-Panel Grid Contact Sheets for Pre-viz
 │   └── cinematic-lighting-and-color.md       <-- 3-Point Lighting Diagrams & Lens Distortion Profiles
 │
 └── tools-and-workflows/
     ├── prompt_linter.py                      <-- Executable Python Prompt Linter & Quality Auditor
+    ├── test_prompt_linter.py                 <-- Automated Unit Test Suite for Prompt Linter
+    ├── camera_preset_search.py               <-- Interactive CLI Camera Preset Search Tool
     ├── prompt_compiler.py                    <-- Interactive CLI Master Prompt Compiler
     ├── quick-reference-cheatsheet.md         <-- 1-Page Rapid Copy-Paste Production Cheatsheet
     ├── master-prompt-generator.md            <-- Interactive Fill-in-the-Blank Production Templates
@@ -177,6 +189,11 @@ python tools-and-workflows/prompt_linter.py --video "A female operative sprints 
 
 # Audit any Suno style prompt against character limits and tempo locks
 python tools-and-workflows/prompt_linter.py --audio "1980s dark synthwave, analog synth, punchy LinnDrum, BPM: 120, Key: D Minor"
+```
+
+### Run the Camera Preset Search Tool:
+```bash
+python tools-and-workflows/camera_preset_search.py "chase"
 ```
 
 ### Interactive Prompt Compiler:

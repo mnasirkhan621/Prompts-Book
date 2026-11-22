@@ -12,6 +12,9 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 ## Core Frameworks & Compilers
 - MCSLA Video Framework: Model, Camera, Subject, Look, Action/Audio. (video-generation/frameworks/mcsla-framework.md)
 - Multi-Model Dialect Matrix: Syntactical compilers for Kling, Runway Gen-3, OpenAI Sora, and Luma. (video-generation/frameworks/model-dialect-matrix.md)
+- Vox-Style Motion Graphics: Paper collage dioramas and multi-beat timeline prompts. (video-generation/motion-design-and-vfx/vox-style-motion-graphics.md)
+- Talking Heads & Social Reels: 6-part presenter formula, crash-zoom hooks, and lipsync limits. (video-generation/prompts-by-genre/talking-heads-and-social-reels.md)
+- Vibe-Motion & Infographics: Kinetic charts, metric tickers, and typography stings. (video-generation/motion-design-and-vfx/vibe-motion-infographics.md)
 - Audio-to-Video BPM-to-FPS Sync Engine: Mathematical lookup tables mapping musical BPM to video frame cuts at 24fps, 30fps, and 60fps. (video-generation/frameworks/bpm-to-fps-sync.md)
 - Key-to-Fill Lighting Ratios: Contrast control ratios (1:1 to 8:1). (video-generation/frameworks/lighting-key-ratios.md)
 - Temporal Consistency & Multi-Shot Rules: Decoupling character identity from motion dynamics. (video-generation/frameworks/temporal-consistency-rules.md)

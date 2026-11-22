@@ -29,13 +29,16 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [Shutter Angles & Motion Blur](camera-and-cinematography/shutter-speed-and-motion-blur.md) — 180-degree rule, 90-degree action crispness, and 360-degree dream trails.
 * [Camera-Emotion Synchronization](camera-and-cinematography/camera-emotion-sync.md) — Pairing camera stability and travel speed to the character's psychological state.
 
-### 3. Motion Design & After Effects Hybrid
+### 3. Motion Design, Explainer & VFX Workflows
+* [Vox-Style Editorial Motion Graphics](motion-design-and-vfx/vox-style-motion-graphics.md) — Mixed-media paper collage, halftone textures, paper dioramas, and multi-beat timeline prompts.
+* [Vibe-Motion & Data-Driven Infographics](motion-design-and-vfx/vibe-motion-infographics.md) — Animated bar charts, metric tickers, SVG path reveals, and kinetic typography.
 * [Classic Motion Templates (`classicMD`)](motion-design-and-vfx/classic-motion-templates.md) — SaaS product launches, typography zones, elegant spatial transitions, and reading settles.
 * [Kinetic & Hyper Motion (`highMD`)](motion-design-and-vfx/kinetic-hyper-motion.md) — Sports teasers, speed ramps, neon CGI contrast, and proportional hard-stop logo locks.
 * [Storyboard & Timed Beat Sheets](motion-design-and-vfx/storyboard-and-beat-sheets.md) — Pre-production beat timing and 6/9-panel single-image contact sheet prompt formulas.
 * [After Effects Hybrid Pipeline](motion-design-and-vfx/after-effects-integration.md) — Layer separation: generative AI background plates + native AE vector text & logos.
 
 ### 4. Production Suites by Genre
+* [Talking Heads & Social Reels](prompts-by-genre/talking-heads-and-social-reels.md) — 6-part avatar formula, crash-zoom hooks, multi-cut founder consistency, and 8s lipsync thresholds.
 * [Action & Pursuit](prompts-by-genre/action-and-pursuit.md) — Urban foot sprints, martial arts sweeps, car garage drifts, zero-G breach.
 * [Sci-Fi & Cyberpunk](prompts-by-genre/sci-fi-and-cyberpunk.md) — Dystopian neon megacities, starfighter atmospheric re-entry, android diagnostics.
 * [Drama & Cinematic](prompts-by-genre/drama-and-cinematic.md) — Subtext cafe dialogue, solitary hospital corridors, misty harbor twilights.
