@@ -35,6 +35,7 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [Camera-Emotion Synchronization](camera-and-cinematography/camera-emotion-sync.md) — Pairing camera stability and travel speed to the character's psychological state.
 
 ### 3. Motion Design, Explainer & VFX Workflows
+* [HyperFrames Code-to-Video Editing](motion-design-and-vfx/hyperframes-code-editing.md) — Programmatic YouTube editing from Whisper timestamps, custom brand design tokens (`design.json`), storyboard contact sheets, and HyperFrames rendering.
 * [Vox-Style Editorial Motion Graphics](motion-design-and-vfx/vox-style-motion-graphics.md) — Mixed-media paper collage, halftone textures, paper dioramas, and multi-beat timeline prompts.
 * [Vibe-Motion & Data-Driven Infographics](motion-design-and-vfx/vibe-motion-infographics.md) — Animated bar charts, metric tickers, SVG path reveals, and kinetic typography.
 * [Classic Motion Templates (`classicMD`)](motion-design-and-vfx/classic-motion-templates.md) — SaaS product launches, typography zones, elegant spatial transitions, and reading settles.
@@ -42,7 +43,13 @@ Architected by **Muhammad Nasir Khan**, this engine eliminates the instability, 
 * [Storyboard & Timed Beat Sheets](motion-design-and-vfx/storyboard-and-beat-sheets.md) — Pre-production beat timing and 6/9-panel single-image contact sheet prompt formulas.
 * [After Effects Hybrid Pipeline](motion-design-and-vfx/after-effects-integration.md) — Layer separation: generative AI background plates + native AE vector text & logos.
 
-### 4. Production Suites by Genre
+### 4. YouTube Research, Hooks & Script Strategy
+* [YouTube Research & Scripting Master Index](youtube-research-and-scripts/README.md) — Overview of CLI tools (`yt.py`, `reel_fetch.py`, `thumbs.py`, `script_check.py`) and 13 native agentic skills.
+* [YouTube Research & Breakdown Protocol](youtube-research-and-scripts/youtube-research-and-analysis-protocol.md) — Outlier multipliers, breakout inflection detection, and frame-by-frame visual contact sheets.
+* [Audience Bullseye & Hook Machine](youtube-research-and-scripts/audience-bullseye-and-hooks.md) — 5-Ring Audience Bullseye (`3-2-2` mix), data-backed hook rubrics, and Title/Thumbnail/Hook synergy.
+* [Viral Script Engineering & Linting](youtube-research-and-scripts/viral-script-engineering-and-linting.md) — Retention arcs, `[proof: ...]` cues, anti-AI-tell enforcement, and automated `script_check.py` auditing.
+
+### 5. Production Suites by Genre
 * [Talking Heads & Social Reels](prompts-by-genre/talking-heads-and-social-reels.md) — 6-part avatar formula, crash-zoom hooks, multi-cut founder consistency, and 8s lipsync thresholds.
 * [Action & Pursuit](prompts-by-genre/action-and-pursuit.md) — Urban foot sprints, martial arts sweeps, car garage drifts, zero-G breach.
 * [Sci-Fi & Cyberpunk](prompts-by-genre/sci-fi-and-cyberpunk.md) — Dystopian neon megacities, starfighter atmospheric re-entry, android diagnostics.

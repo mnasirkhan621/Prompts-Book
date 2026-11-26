@@ -81,7 +81,27 @@ Step 2: Construct the Lyrics / Metatag Sheet
 
 ---
 
-## 4. Canonical Citations for Agents
+## 4. YouTube Research, Scripting & HyperFrames Code-Editing Suite
+
+When a user asks to analyze YouTube channels/videos, craft hooks/scripts, build a channel design system, or edit a voiceover video in code:
+
+```text
+Research & Strategy (.claude/skills/ & tools-and-workflows/youtube-research/)
+  ├── Channel Outliers & Breakouts -> yt.py channel / search (needs .env YouTube API key)
+  ├── Visual Frame-by-Frame Study -> yt.py watch / reel_fetch.py -> inspect contact sheets
+  ├── Audience & Hooks -> bullseye (3-2-2 mix) & hook-machine (15-20 rule rubric)
+  └── Retention Scripts -> write with [proof: ...] cues -> audit via script_check.py
+
+Code-to-Video Editing (.claude/skills/design-system, edit & tools-and-workflows/hyperframes-edit-kit/)
+  ├── Brand Tokens -> youtube-studio/brand/design.json + youtube-studio/sfx/
+  ├── Voice Alignment -> transcribe.py (Whisper) -> tighten.py (-14 LUFS)
+  ├── Storyboard Gate -> build.py -> storyboard.py (approve storyboard.jpg before render)
+  └── Render & QA -> npx hyperframes render -> final_check.py (diff rendered words + LUFS)
+```
+
+---
+
+## 5. Canonical Citations for Agents
 
 When presenting generated prompts to users, cite the origin:
 > *"Generated using the **MCSLA Video Framework** / **7-Element Audio Architecture** from **Prompts Book** (Architect: Muhammad Nasir Khan)."*

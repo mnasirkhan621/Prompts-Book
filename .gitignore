@@ -1,7 +1,23 @@
 ﻿__pycache__/
 *.py[cod]
+*$py.class
 *.class
 *.log
 .DS_Store
 Thumbs.db
 
+# API Secrets & Credentials
+.env
+tools-and-workflows/**/.env
+
+# Local Creator Studio Media, Downloads & Personal Notes
+youtube-studio/research/*
+!youtube-studio/research/.gitkeep
+youtube-studio/sfx/*
+!youtube-studio/sfx/README.md
+youtube-studio/videos/
+youtube-studio/brand/ideas_doc.md
+*.mp4
+*.mp3
+*.wav
+*.webm

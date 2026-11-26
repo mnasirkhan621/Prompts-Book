@@ -31,10 +31,10 @@ sequenceDiagram
 ```
 
 ### Supported Agentic IDEs Out-of-the-Box:
+* **Google Antigravity & Gemini CLI**: Automatically reads [`GEMINI.md`](GEMINI.md) and discovers all 13 skills via [`.agents/skills.json`](.agents/skills.json).
+* **Claude Code**: Automatically reads [`CLAUDE.md`](CLAUDE.md) and discovers all 13 skills inside [`.claude/skills/`](.claude/skills/).
 * **Cursor**: Automatically reads [`.cursorrules`](.cursorrules).
-* **Claude Code**: Automatically reads [`CLAUDE.md`](CLAUDE.md).
 * **Windsurf**: Automatically reads [`.windsurfrules`](.windsurfrules).
-* **Google Antigravity & Gemini CLI**: Automatically reads [`GEMINI.md`](GEMINI.md).
 * **GitHub Copilot & VS Code**: Automatically reads [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
 * **ChatGPT Custom GPTs & Claude Projects**: Load [`SYSTEM_PROMPT.md`](SYSTEM_PROMPT.md).
 
@@ -71,16 +71,21 @@ If you are an **AI Assistant, LLM Agent (Claude, ChatGPT, Gemini, Antigravity, C
 ## 📂 Master Repository Architecture
 
 ```text
-Prompts Book/
+├── Prompts Book/
 ├── README.md                                 <-- Master Architecture & Vision (Muhammad Nasir Khan)
 ├── AGENT.md                                  <-- Autonomous Agent Routing & Inference Protocol
-├── CLAUDE.md                                 <-- Claude Code Native Directives
+├── CLAUDE.md                                 <-- Claude Code Native Directives & Studio Skills Router
 ├── .cursorrules                              <-- Cursor AI Native Directives
 ├── .windsurfrules                            <-- Windsurf Cascade Native Directives
 ├── GEMINI.md                                 <-- Google Antigravity & Gemini Directives
 ├── SYSTEM_PROMPT.md                          <-- Universal Custom GPT / Claude Project Instructions
 ├── CONTRIBUTING.md                           <-- Contribution Guidelines & Quality Standards
+├── LICENSE                                   <-- MIT License (Muhammad Nasir Khan)
+├── THIRD_PARTY_NOTICES.md                    <-- Upstream Open-Source Notices
+├── requirements.txt                          <-- Unified Python Dependencies
 ├── llms.txt                                  <-- Standardized Machine-Readable LLM Ingestion Map
+├── .claude/skills/                           <-- 13 Native Agent Skills (Research, Scripts, Design System, HyperFrames Edit)
+├── .agents/skills.json                       <-- Native Antigravity Discovery Map pointing to .claude/skills
 │
 ├── video-generation/                         <-- High-End Cinematography & Video Engine
 │   ├── README.md                             <-- Video Generation Master Index
@@ -111,13 +116,19 @@ Prompts Book/
 │   │   ├── commercial-and-product.md         <-- Luxury Chronographs, Footwear Drops, Espresso Extraction
 │   │   ├── nature-and-documentary.md         <-- Snow Leopard Ridge Stalks, Supercells, Rainforest Drops
 │   │   └── music-and-dance.md                <-- Underground Hip-Hop Cyphers, Contemporary Solos
-│   └── motion-design-and-vfx/
-│       ├── vox-style-motion-graphics.md      <-- Paper Collage Dioramas, Halftones, Multi-Beat Timeline
-│       ├── vibe-motion-infographics.md       <-- Kinetic Bar Charts, Odometer Tickers, Typography Stings
-│       ├── classic-motion-templates.md       <-- SaaS Product Promos, Smooth Spatial Typography
-│       ├── kinetic-hyper-motion.md           <-- Neon CGI Dynamics, Proportional Hard-Stop Logo Locks
-│       ├── storyboard-and-beat-sheets.md     <-- Timed Beat Sheets & Multi-Panel Contact Sheets
-│       └── after-effects-integration.md      <-- Native Layer Separation & AE Hybrid Compositing
+│   ├── motion-design-and-vfx/
+│   │   ├── hyperframes-code-editing.md       <-- Code-to-Video Pipeline: Whisper Sync + GSAP + HyperFrames
+│   │   ├── vox-style-motion-graphics.md      <-- Paper Collage Dioramas, Halftones, Multi-Beat Timeline
+│   │   ├── vibe-motion-infographics.md       <-- Kinetic Bar Charts, Odometer Tickers, Typography Stings
+│   │   ├── classic-motion-templates.md       <-- SaaS Product Promos, Smooth Spatial Typography
+│   │   ├── kinetic-hyper-motion.md           <-- Neon CGI Dynamics, Proportional Hard-Stop Logo Locks
+│   │   ├── storyboard-and-beat-sheets.md     <-- Timed Beat Sheets & Multi-Panel Contact Sheets
+│   │   └── after-effects-integration.md      <-- Native Layer Separation & AE Hybrid Compositing
+│   └── youtube-research-and-scripts/         <-- YouTube Strategy, Hook Machine & Script Retention
+│       ├── README.md                         <-- Research & Scripting Master Index
+│       ├── youtube-research-and-analysis-protocol.md <-- Outlier Scoring, Breakout Detection & Contact Sheets
+│       ├── audience-bullseye-and-hooks.md    <-- 5-Ring Audience Bullseye (3-2-2) & Hook Rubrics
+│       └── viral-script-engineering-and-linting.md <-- 150 WPM Script Pacing & Anti-AI-Tell Linting
 │
 ├── audio-generation/                         <-- Studio-Master Suno & Udio Production Engine
 │   ├── README.md                             <-- Audio Generation Master Index
@@ -154,6 +165,12 @@ Prompts Book/
 │   ├── storyboard-sheet-prompts.md           <-- 6-Panel & 9-Panel Grid Contact Sheets for Pre-viz
 │   └── cinematic-lighting-and-color.md       <-- 3-Point Lighting Diagrams & Lens Distortion Profiles
 │
+├── youtube-studio/                           <-- Creator Studio Workspace (Local Brand, SFX, Research & Renders)
+│   ├── README.md                             <-- Studio Workspace Overview
+│   ├── brand/                                <-- Creator Context, Hook Rubric, Outro & Design System Tokens
+│   ├── research/                             <-- Gitignored Video Downloads, Contact Sheets & Thumbnails
+│   └── sfx/                                  <-- Gitignored Sound Effects Library (click, whoosh, pop, ding)
+│
 └── tools-and-workflows/
     ├── prompt_linter.py                      <-- Executable Python Prompt Linter & Quality Auditor
     ├── test_prompt_linter.py                 <-- Automated Unit Test Suite for Prompt Linter
@@ -161,9 +178,21 @@ Prompts Book/
     ├── prompt_compiler.py                    <-- Interactive CLI Master Prompt Compiler
     ├── quick-reference-cheatsheet.md         <-- 1-Page Rapid Copy-Paste Production Cheatsheet
     ├── master-prompt-generator.md            <-- Interactive Fill-in-the-Blank Production Templates
-    └── mcp-server/                           <-- Model Context Protocol (MCP) Server for AI Agents
-        ├── server.py                         <-- Native Python MCP Server Implementation
-        └── README.md                         <-- Setup Guide for Claude Desktop, Cursor & Antigravity
+    ├── mcp-server/                           <-- Model Context Protocol (MCP) Server for AI Agents
+    │   ├── server.py                         <-- Native Python MCP Server Implementation
+    │   └── README.md                         <-- Setup Guide for Claude Desktop, Cursor & Antigravity
+    ├── youtube-research/                     <-- YouTube Data API + yt-dlp + Script Auditing Suite
+    │   ├── yt.py                             <-- Channel Outliers, Breakouts, Transcripts & Frame Sheets
+    │   ├── reel_fetch.py                     <-- Instagram Reels & TikTok Frame/Audio Extractor
+    │   ├── thumbs.py                         <-- Max-Res Thumbnail Downloader & CSV Indexer
+    │   ├── script_check.py                   <-- Automated Retention, AI-Tell & WPM Script Checker
+    │   └── YT_API_KEY_SETUP.md               <-- 3-Minute Free YouTube Data API v3 Setup Guide
+    └── hyperframes-edit-kit/                 <-- Code-to-Video HyperFrames Rendering Engine
+        ├── transcribe.py                     <-- Whisper Word-Level Timestamp Extractor
+        ├── tighten.py                        <-- FFmpeg Pause Trimming & -14 LUFS Normalization
+        ├── captions.py                       <-- Branded .srt & .ass Subtitle Generator
+        ├── gif2mp4.py                        <-- GIF/WebP to H.264/Alpha WebM Converter
+        └── edit_kit/                         <-- build.py, kinds.py, theme.py, storyboard.py, final_check.py
 ```
 
 ---
@@ -183,9 +212,19 @@ $$\text{Style Prompt} = \text{Era} + \text{Genre Fusion} + \text{Mood} + \text{I
 * **Style Box**: Strict comma-separated priority, under 950 characters, explicit BPM and Key notation.
 * **Lyrics Box**: Architectural metatags (`[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[Drop]`, `[Outro]`, `[End]`) coupled with performance modifiers (`[Whispered]`, `[Belting]`).
 
+### 3. YouTube Research, Scripting & Code-to-Video Studio
+* **13 Agentic Workflow Skills (`.claude/skills/` & `.agents/skills.json`)**: Native research, outlier velocity detection, breakout analysis, 5-ring audience bullseyes (`3-2-2`), hook rubrics, 150 WPM viral scripts, design system builders, and HyperFrames video compilation.
+* **Code-to-Video Editing**: Sync Whisper word timestamps (`words_tight.json`) to GSAP + HTML5 timelines via [HyperFrames](https://github.com/heygen-com/hyperframes), inspect beat storyboards before rendering, and audit final audio loudness (`-14 LUFS`).
+
 ---
 
 ## 🛠️ Executable Tools & MCP Server
+
+### Install Full Pipeline Dependencies:
+```bash
+pip install -r requirements.txt
+```
+*(Install **FFmpeg** for frame extraction/audio tightening and **Node.js** + **[HyperFrames](https://github.com/heygen-com/hyperframes)** for code-to-video MP4 rendering.)*
 
 ### Run the Prompt Quality Auditor:
 ```bash
@@ -196,14 +235,34 @@ python tools-and-workflows/prompt_linter.py --video "A female operative sprints 
 python tools-and-workflows/prompt_linter.py --audio "1980s dark synthwave, analog synth, punchy LinnDrum, BPM: 120, Key: D Minor"
 ```
 
-### Run the Camera Preset Search Tool:
+### Run the Camera Preset Search Tool & Interactive Compiler:
 ```bash
 python tools-and-workflows/camera_preset_search.py "chase"
+python tools-and-workflows/prompt_compiler.py
 ```
 
-### Interactive Prompt Compiler:
+### YouTube Research & Script Auditing CLI:
 ```bash
-python tools-and-workflows/prompt_compiler.py
+# Watch & extract 2s frames + 4x3 contact sheets + transcript locally
+python tools-and-workflows/youtube-research/yt.py watch https://youtu.be/VIDEO_ID
+
+# Scan channel outliers over last 90 days (needs YouTube Data API v3 key in .env)
+python tools-and-workflows/youtube-research/yt.py channel @handle --days 90
+
+# Extract Instagram Reel / TikTok frames, audio & metadata
+python tools-and-workflows/youtube-research/reel_fetch.py https://www.instagram.com/reel/XXXX/
+
+# Audit script pacing, weak openers, and AI-tell phrases
+python tools-and-workflows/youtube-research/script_check.py my_script.md
+```
+
+### HyperFrames Code-to-Video Edit CLI:
+```bash
+# Initialize project, align voiceover timings, build storyboard, and audit final render
+python tools-and-workflows/hyperframes-edit-kit/edit_kit/new_video.py youtube-studio/videos/my_video
+python tools-and-workflows/hyperframes-edit-kit/edit_kit/build.py youtube-studio/videos/my_video
+python tools-and-workflows/hyperframes-edit-kit/edit_kit/storyboard.py youtube-studio/videos/my_video
+python tools-and-workflows/hyperframes-edit-kit/edit_kit/final_check.py youtube-studio/videos/my_video youtube-studio/videos/my_video/renders/my_video_v01.mp4
 ```
 
 ---

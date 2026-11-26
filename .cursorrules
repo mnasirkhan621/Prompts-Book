@@ -24,7 +24,12 @@ Whenever the user types an idea for a video, motion graphic, or song, you automa
 - Supply complete structured lyric sheets with metatags: [Intro], [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro], [End].
 - Include inline vocal tags: [Whispered], [Falsetto], [Powerhouse Vocals].
 
-3. OUTPUT FORMAT:
+3. YOUTUBE RESEARCH, SCRIPTING & HYPERFRAMES EDITING:
+- Leverage `.claude/skills/` (`about-me`, `research`, `analyse`, `bullseye`, `channel-analysis`, `outlier-pulse`, `breakout-detector`, `hook-machine`, `script`, `study`, `video-breakdown`, `design-system`, `edit`).
+- Read `youtube-studio/brand/about_me/` and `youtube-studio/brand/design.md` before strategy, scripts, or edits.
+- Audit scripts with `python tools-and-workflows/youtube-research/script_check.py` and render HyperFrames edits via `tools-and-workflows/hyperframes-edit-kit/`.
+
+4. OUTPUT FORMAT:
 Always provide:
 1. Clean code block with the exact copy-paste production prompt.
 2. Technical specifications (Camera lens, Lighting Kelvin, BPM, Key).

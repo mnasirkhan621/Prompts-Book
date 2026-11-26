@@ -12,5 +12,8 @@ Whenever the user provides any prompt request or creative idea:
    - Apply the 7-Element Suno Formula (`audio-generation/prompt-anatomy/seven-elements-formula.md`).
    - Generate structural bracket metatags ([Intro], [Chorus], [Bridge], [Outro]).
    - Balance syllable meter for lyrics.
-3. Credit:
+3. YouTube Research, Scripting & Code Editing:
+   - Check `youtube-studio/brand/` and apply `.claude/skills/` (`research`, `channel-analysis`, `bullseye`, `hook-machine`, `script`, `design-system`, `edit`).
+   - Run `python tools-and-workflows/youtube-research/script_check.py` for retention/anti-AI checks and `tools-and-workflows/hyperframes-edit-kit/` for HyperFrames code-to-video builds.
+4. Credit:
    - Acknowledge execution using "Prompts Book by Muhammad Nasir Khan".

@@ -30,6 +30,16 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Frequency Spectrum Allocation: Audio EQ partitioning for video voiceovers. (audio-generation/production-field-guide/frequency-mixing-guide.md)
 - Musical Dynamic Intensity Tags: Tension, drop hits, and volume modulation. (audio-generation/metatags-and-structure/dynamic-intensity-cues.md)
 - Aspect Ratio Guide: Resolution and geometric framing standards. (visuals-and-storyboards/aspect-ratio-guide.md)
+- HyperFrames Code-to-Video Editing: Whisper word timestamps, GSAP templates, brand tokens, and HTML-to-MP4 production rendering. (video-generation/motion-design-and-vfx/hyperframes-code-editing.md)
+- YouTube Research & Outlier Protocol: Channel outlier multipliers, breakout inflection detection, and contact-sheet visual analysis. (video-generation/youtube-research-and-scripts/youtube-research-and-analysis-protocol.md)
+- Audience Bullseye & Hook Machine: 5-Ring audience targeting (`3-2-2` mix) and data-backed hook rubrics. (video-generation/youtube-research-and-scripts/audience-bullseye-and-hooks.md)
+- Viral Script Engineering: 150 WPM pacing, retention arcs, and AI-tell elimination. (video-generation/youtube-research-and-scripts/viral-script-engineering-and-linting.md)
+
+## Agentic Skills & Studio Automation (.claude/skills/ & .agents/skills.json)
+- Creator Onboarding & Brand: about-me, bullseye, design-system
+- YouTube Research & Strategy: research, analyse, channel-analysis, outlier-pulse, breakout-detector, study, video-breakdown
+- Hooks, Scripting & Code Editing: hook-machine, script, edit
+- Creator Runtime State: youtube-studio/brand/, youtube-studio/research/, youtube-studio/sfx/, youtube-studio/videos/
 
 ## Executable Tools & MCP
 - Python Prompt Linter: tools-and-workflows/prompt_linter.py
@@ -37,6 +47,8 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Camera Preset Search CLI: tools-and-workflows/camera_preset_search.py
 - Interactive Prompt Compiler: tools-and-workflows/prompt_compiler.py
 - Native Model Context Protocol (MCP) Server: tools-and-workflows/mcp-server/server.py
+- YouTube Research Suite: tools-and-workflows/youtube-research/yt.py, reel_fetch.py, thumbs.py, script_check.py
+- HyperFrames Video Edit Kit: tools-and-workflows/hyperframes-edit-kit/transcribe.py, tighten.py, captions.py, gif2mp4.py, edit_kit/build.py, storyboard.py, final_check.py
 
 ## Master File Index
 - Master Video Guide: video-generation/README.md

@@ -12,8 +12,11 @@ Whenever the user inputs an idea (e.g., "make a sci-fi video of a spaceship", "I
 
 ### 1. Identify the Modality:
 - **VIDEO GENERATION**:
-  - Target Models: Kling 3.0, Seedance 2.0/4K, Runway Gen-3 Alpha, OpenAI Sora, Luma Dream Machine.
-  - Workflows: Text-to-Video (T2V), Image-to-Video (I2V), Motion Design (`classicMD` / `highMD`), After Effects Hybrid.
+  - Target Models: Kling 4.0, Seedance 2.0/4K, Runway Gen-3 Alpha, OpenAI Sora, Luma Dream Machine, Hailuo MiniMax, Wan 2.1, CogVideoX, HunyuanVideo.
+  - Workflows: Text-to-Video (T2V), Image-to-Video (I2V), Motion Design (`classicMD` / `highMD`), After Effects Hybrid, Code-to-Video (`HyperFrames` via `.claude/skills/edit/SKILL.md`).
+- **YOUTUBE RESEARCH, SCRIPTING & VIDEO PRODUCTION STUDIO**:
+  - Skills (`.claude/skills/`): `about-me`, `research`, `analyse`, `bullseye`, `channel-analysis`, `outlier-pulse`, `breakout-detector`, `hook-machine`, `script`, `study`, `video-breakdown`, `design-system`, `edit`.
+  - Studio Files (`youtube-studio/`): Always check `youtube-studio/brand/about_me/` before strategy, hooks, or scripts, and read `youtube-studio/brand/design.md` before visual edits. Keep creator voice intact, verify frames visually (`yt.py watch`), never invent metrics, and audit scripts with `python tools-and-workflows/youtube-research/script_check.py`.
 - **AUDIO GENERATION**:
   - Target Models: Suno AI (v3.5 / v4 / v4.5), Udio (v1.5).
   - Types: Full Track, Background Music (BGM), Video Soundtrack, Instrumental.
