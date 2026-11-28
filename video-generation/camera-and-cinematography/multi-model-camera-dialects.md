@@ -26,6 +26,10 @@ This guide is the **Universal Rosetta Stone** for AI camera syntax, translating 
 | CogVideoX        | Cardinal Directional| Explicit vectors        | Direct vector cues (Zoom, Pan, Tilt)     |
 | HunyuanVideo     | Cinematographic NLP | Clause Integration      | Deep spatial comprehension (Tencent)     |
 | Runway Gen-3     | Director Commands   | Motion Brush / Keyframe | Integrated speed multipliers & FPV       |
+| Google Veo 3/3.1 | Shot-List Front-Load| 4s/6s/8s + Visual DNA   | Native 48kHz audio & seamless loops      |
+| LTX-2.5          | Chronological Prose | Auto-duration / cuts    | Single-take vs explicit cut transitions  |
+| MiniMax H3       | 3-Field Schema      | `[Shot N] At 00:03.500` | T2VA/I2VA/FL2VA + `<d>` dialogue timing  |
+| Seedance 2.5     | Production Blocking | 4-30s causal beats      | Cause-before-reaction & multi-asset `@`  |
 | Luma Ray 2       | Camera Path Syntax  | Start-to-End framing    | Fluid continuous single-take glides      |
 +------------------+---------------------+-------------------------+------------------------------------------+
 ```
@@ -104,6 +108,9 @@ Compare how the same shot—**A slow push toward a solitary character in an empt
 | **CogVideoX** | `A medium shot of a man on an empty street as the camera zooms in slowly toward his face, night atmosphere.` |
 | **HunyuanVideo** | `A lone man in dark trench coat standing on an empty rain-slicked boulevard at night, subtle mist in air, slow push-in shot, cinematic 24fps.` |
 | **Runway Gen-3** | `Cinematic medium shot. Steady forward dolly tracking toward the man, locked horizon, 180-degree shutter, smooth motion.` |
+| **Google Veo 3.1** | `Medium shot, slow dolly forward, 35mm lens, lone man in wet trench coat on empty night street, sodium-vapor puddle reflections, 35mm grain. Audio: quiet footsteps on wet asphalt.` |
+| **LTX-2.5** | `Medium shot in low sodium-vapor light: a lone man in a damp wool trench coat stands on rain-slicked asphalt as the camera pushes smoothly toward his face, ending in a tight close-up over quiet rain and footsteps.` |
+| **MiniMax H3** | `integrated_multimodal_description: [Shot 1] Medium shot of a man in a damp trench coat on a wet city street at night, camera pushing slowly toward his face.` |
 
 ---
 

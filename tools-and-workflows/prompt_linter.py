@@ -22,11 +22,13 @@ BANNED_SLOP_WORDS = [
 ]
 
 CAMERA_PRESETS = [
-    "dolly in", "dolly out", "dolly left", "dolly right", "dolly zoom",
+    "dolly in", "dolly out", "dolly left", "dolly right", "dolly zoom", "dolly forward", "dolly back",
+    "push in", "pull out", "pull back", "tracking", "static camera", "locked camera",
+    "pan left", "pan right", "tilt up", "tilt down",
     "crane up", "crane down", "crane over the head", "levitation",
-    "360 orbit", "orbit", "arc shot", "lazy susan", "robo arm",
+    "360 orbit", "orbit", "slow orbit", "arc shot", "lazy susan", "robo arm",
     "fpv drone", "action run", "handheld", "head tracking", "snorricam",
-    "bullet time", "dutch angle", "whip pan", "crash zoom", "telephoto", "macro"
+    "bullet time", "dutch angle", "whip pan", "crash zoom", "rack focus", "telephoto", "macro"
 ]
 
 def lint_video_prompt(text: str) -> dict:

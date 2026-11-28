@@ -20,6 +20,30 @@ class TestPromptLinter(unittest.TestCase):
         self.assertGreaterEqual(report["score"], 80)
         self.assertEqual(len([f for f in report["findings"] if f["type"] == "ERROR"]), 0)
 
+    def test_valid_veo3_prompt(self):
+        prompt = (
+            "Medium close-up, slow push in on a 35mm lens. "
+            "A ceramicist turns a clay bowl on a wheel as morning window light casts warm 3200K shadows. "
+            "Audio: Wheel hum and wet clay sliding cleanly."
+        )
+        report = lint_video_prompt(prompt)
+        self.assertEqual(report["score"], 100)
+        self.assertEqual(report["findings"], [])
+
+    def test_valid_ltx25_and_suno_v6_prompts(self):
+        ltx_prompt = (
+            "Wide shot with tracking movement on 28mm anamorphic lens: a courier walks along wet concrete "
+            "under cold 6000K neon light as rain drifts through the frame. "
+            "Audio: steady rain patter and footsteps."
+        )
+        v_report = lint_video_prompt(ltx_prompt)
+        self.assertEqual(v_report["score"], 100)
+
+        suno_style = "Gravelly baritone male vocal. Dark synthwave, pulsing analog bass, LinnDrum, BPM: 120, Key: A Minor"
+        suno_lyrics = "[Intro - Analog drone]\n\n[Verse 1 - Cold steady pulse]\nShadow on the glass\n[Chorus - Full synth lift]\nSignal cutting through\n[End]"
+        a_report = lint_audio_prompt(suno_style, suno_lyrics)
+        self.assertEqual(a_report["score"], 100)
+
     def test_banned_slop_words_detection(self):
         prompt = "An epic and stunning cinematic masterpiece with photorealistic 8k detail."
         report = lint_video_prompt(prompt)

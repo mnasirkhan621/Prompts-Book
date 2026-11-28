@@ -27,10 +27,15 @@ Whenever a user prompts you with:
    - For **Higgsfield (Cinema Studio / Seedance)**: Hardware rig presets (`Dolly In`, `Snorricam`, `FPV Drone`, `Levitation`, `360 Orbit`).
    - For **Hailuo AI / MiniMax**: Conversational director-to-crew phrasing with amplitude and speed tags.
    - For **Wan 2.1**: Progressive linear spatial descriptions and pull-backs.
-   - For **Runway Gen-3**: Output colon-separated tags (`[Camera]:`, `[Subject]:`, `[Action]:`, `[Environment & Lighting]:`).
-   - For **OpenAI Sora**: Output dense, continuous narrative paragraphs with optical and fluid physics.
+   - For **Runway Gen-3 / Gen-4**: Output colon-separated tags (`[Camera]:`, `[Subject]:`, `[Action]:`, `[Environment & Lighting]:`); avoid `no X` negations in Gen-4.
+   - For **Google Veo 3 / 3.1**: Lead with `[Shot Size & Camera Move] + [Lens] + [Material Subject] + [Action] + [Visual DNA Lighting/Palette] + [Audio / Colon-Anchored Speech]`; use plain-noun phrases in negative fields (`video-generation/frameworks/veo3-prompting-guide.md`).
+   - For **OpenAI Sora / Sora 2**: Output dense, continuous narrative paragraphs with optical and fluid physics.
    - For **Luma Dream Machine**: Output start-to-end trajectory keyframes.
-   - For **Udio v1.5**: Output concise, weighted tag clouds and enable Manual Mode recommendations.
+   - For **LTX-2.5 / MiniMax H3 / Seedance 2.5 / Wan 2.2 / Ovi**: Load the exact per-model schema from `.claude/skills/video-prompting/SKILL.md` (`references/models/<model>/prompting.md`).
+   - For **Multi-Shot Narrative Direction & Character Continuity**: Enforce the 180° rule, degree eyelines, master keyframe coverage, and continuity sheets via `.claude/skills/narrative-film-direction/SKILL.md` and `.claude/skills/character-continuity/SKILL.md`.
+   - For **Shortfilm Director Mode**: Apply the 5-Stage Shot-List Methodology & 28 genre templates in `video-generation/shortfilm-director/` (`.claude/skills/shortfilm-prompt/SKILL.md`).
+   - For **Suno v6 & ElevenLabs Audio**: Use `audio-generation/suno-v6-mastery/` (Variety Off, Max Mode, section Performance Cues) and `.claude/skills/` (`suno-engineer`, `lyric-writer`, `pronunciation-specialist`, `elevenlabs-music`, `elevenlabs-sound-effects`, `elevenlabs-tts`).
+   - For **Udio v1.5 / MusicGen / Stable Audio**: Reference `audio-generation/cross-platform-and-tags/` alongside `audio-generation/prompt-anatomy/udio-prompting-guide.md`.
 
 ---
 

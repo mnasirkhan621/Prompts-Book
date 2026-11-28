@@ -30,7 +30,12 @@ Designed by **Muhammad Nasir Khan**, this engine decodes generative audio style-
 * [Advanced Parameters & Audio Mastering](production-field-guide/advanced-parameters-and-mastering.md) — Tempo locks, harmonic key specifications, stem splitting, and vocal sidechain EQ for video background music.
 * [Lyric Writing & Meter Rules](production-field-guide/lyric-writing-rules.md) — Syllabic meter balancing, phonetic spelling for names, and pause/staccato formatting.
 
-### 4. 1,000+ Style Prompts by Genre
+### 4. Suno v6 Mastery, Mastering & Cross-Platform Audio
+* [Suno v6 Mastery Hub](suno-v6-mastery/README.md) — Complete Suno `v6` / `v6-wild` / `v6-mini` model guide, creative sliders (`Weirdness`, `Style Influence`, `Variety`, `Max Mode`), `100-expert-tips`, `artist-blocklist`, `pronunciation-guide`, and `-14 LUFS` mastering workflows.
+* [Cross-Platform Music Prompts & Suno Tag Dictionary](cross-platform-and-tags/README.md) — Structured genre/mood/instrument/vocal tag dictionary plus cross-platform syntax for **Suno**, **Udio**, **MusicGen**, and **Stable Audio**.
+* **Native Audio Agent Skills (`.claude/skills/`):** [`suno-engineer`](../.claude/skills/suno-engineer/SKILL.md), [`lyric-writer`](../.claude/skills/lyric-writer/SKILL.md), [`pronunciation-specialist`](../.claude/skills/pronunciation-specialist/SKILL.md), [`elevenlabs-music`](../.claude/skills/elevenlabs-music/SKILL.md), [`elevenlabs-sound-effects`](../.claude/skills/elevenlabs-sound-effects/SKILL.md), [`elevenlabs-tts`](../.claude/skills/elevenlabs-tts/SKILL.md).
+
+### 5. 1,000+ Style Prompts by Genre
 * [EDM & Electronic](style-prompts-by-genre/edm.md) — House, Trance, Techno, Bass, Dubstep.
 * [Phonk & Drift](style-prompts-by-genre/phonk.md) — Drift Phonk, Brazilian Phonk, Memphis Underground.
 * [Hip-Hop & Trap](style-prompts-by-genre/hip-hop.md) — Modern Trap, 90s Boom Bap, Lo-Fi, Drill.

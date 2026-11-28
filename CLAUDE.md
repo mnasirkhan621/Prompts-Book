@@ -12,14 +12,14 @@ Whenever the user inputs an idea (e.g., "make a sci-fi video of a spaceship", "I
 
 ### 1. Identify the Modality:
 - **VIDEO GENERATION**:
-  - Target Models: Kling 4.0, Seedance 2.0/4K, Runway Gen-3 Alpha, OpenAI Sora, Luma Dream Machine, Hailuo MiniMax, Wan 2.1, CogVideoX, HunyuanVideo.
-  - Workflows: Text-to-Video (T2V), Image-to-Video (I2V), Motion Design (`classicMD` / `highMD`), After Effects Hybrid, Code-to-Video (`HyperFrames` via `.claude/skills/edit/SKILL.md`).
+  - Target Models: Kling 3.0/4.0, Google Veo 3 / 3.1, Seedance 2.0/2.5/4K, LTX-2/2.3/2.5, MiniMax H3 (Hailuo 3), Ovi, Wan 2.2/Animate 2, Runway Gen-3/Gen-4, OpenAI Sora/Sora 2, Luma Dream Machine, CogVideoX, HunyuanVideo.
+  - Workflows: Text-to-Video (T2V), Image-to-Video (I2V), Motion Design (`classicMD` / `highMD`), After Effects Hybrid, Code-to-Video (`HyperFrames` via `.claude/skills/edit/SKILL.md`), plus native video skills (`video-prompting`, `kling-3-prompting`, `narrative-film-direction`, `character-continuity`, `veo`, `veo-multi-shot`, `veo-setup`, `video-loop`, `shortfilm-prompt`, `seedance-prompt`, `seedance-viral-hook`).
 - **YOUTUBE RESEARCH, SCRIPTING & VIDEO PRODUCTION STUDIO**:
   - Skills (`.claude/skills/`): `about-me`, `research`, `analyse`, `bullseye`, `channel-analysis`, `outlier-pulse`, `breakout-detector`, `hook-machine`, `script`, `study`, `video-breakdown`, `design-system`, `edit`.
   - Studio Files (`youtube-studio/`): Always check `youtube-studio/brand/about_me/` before strategy, hooks, or scripts, and read `youtube-studio/brand/design.md` before visual edits. Keep creator voice intact, verify frames visually (`yt.py watch`), never invent metrics, and audit scripts with `python tools-and-workflows/youtube-research/script_check.py`.
 - **AUDIO GENERATION**:
-  - Target Models: Suno AI (v3.5 / v4 / v4.5), Udio (v1.5).
-  - Types: Full Track, Background Music (BGM), Video Soundtrack, Instrumental.
+  - Target Models: Suno v6 (`v6`, `v6-wild`, `v6-mini`), ElevenLabs (`music_v2_5`, `eleven_text_to_sound_v3`, `eleven_v4`), Udio (v1.5), MusicGen, Stable Audio.
+  - Audio Knowledge & Skills: `audio-generation/suno-v6-mastery/`, `audio-generation/cross-platform-and-tags/`, plus `.claude/skills/` (`suno-engineer`, `lyric-writer`, `pronunciation-specialist`, `elevenlabs-music`, `elevenlabs-sound-effects`, `elevenlabs-tts`).
 
 ---
 

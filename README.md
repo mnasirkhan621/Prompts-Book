@@ -31,8 +31,8 @@ sequenceDiagram
 ```
 
 ### Supported Agentic IDEs Out-of-the-Box:
-* **Google Antigravity & Gemini CLI**: Automatically reads [`GEMINI.md`](GEMINI.md) and discovers all 13 skills via [`.agents/skills.json`](.agents/skills.json).
-* **Claude Code**: Automatically reads [`CLAUDE.md`](CLAUDE.md) and discovers all 13 skills inside [`.claude/skills/`](.claude/skills/).
+* **Google Antigravity & Gemini CLI**: Automatically reads [`GEMINI.md`](GEMINI.md) and discovers all 30 skills via [`.agents/skills.json`](.agents/skills.json).
+* **Claude Code**: Automatically reads [`CLAUDE.md`](CLAUDE.md) and discovers all 30 skills inside [`.claude/skills/`](.claude/skills/).
 * **Cursor**: Automatically reads [`.cursorrules`](.cursorrules).
 * **Windsurf**: Automatically reads [`.windsurfrules`](.windsurfrules).
 * **GitHub Copilot & VS Code**: Automatically reads [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
@@ -84,13 +84,14 @@ If you are an **AI Assistant, LLM Agent (Claude, ChatGPT, Gemini, Antigravity, C
 ├── THIRD_PARTY_NOTICES.md                    <-- Upstream Open-Source Notices
 ├── requirements.txt                          <-- Unified Python Dependencies
 ├── llms.txt                                  <-- Standardized Machine-Readable LLM Ingestion Map
-├── .claude/skills/                           <-- 13 Native Agent Skills (Research, Scripts, Design System, HyperFrames Edit)
+├── .claude/skills/                           <-- 30 Native Agent Skills (Video Prompting, Suno v6, ElevenLabs, Film Direction, Research, HyperFrames)
 ├── .agents/skills.json                       <-- Native Antigravity Discovery Map pointing to .claude/skills
 │
 ├── video-generation/                         <-- High-End Cinematography & Video Engine
 │   ├── README.md                             <-- Video Generation Master Index
 │   ├── frameworks/
 │   │   ├── mcsla-framework.md                <-- The 5-Layer MCSLA Formula (Model, Camera, Subject, Look, Action)
+│   │   ├── veo3-prompting-guide.md           <-- Google Veo 3 / 3.1 Shot-List, Native Audio & Visual DNA Guide
 │   │   ├── facs-facial-micro-expressions.md  <-- Anatomical FACS Action Units, Duchenne Smiles & Micro-Beats
 │   │   ├── character-consistency-and-soul-id.md <-- Soul ID 10-Parameter Anchors & 6-Panel 3x2 Consistency Sheets
 │   │   ├── video-to-video-and-vfx-transformations.md <-- Plate Preservation Doctrine & 4K VFX Footage Transforms
@@ -116,6 +117,14 @@ If you are an **AI Assistant, LLM Agent (Claude, ChatGPT, Gemini, Antigravity, C
 │   │   ├── commercial-and-product.md         <-- Luxury Chronographs, Footwear Drops, Espresso Extraction
 │   │   ├── nature-and-documentary.md         <-- Snow Leopard Ridge Stalks, Supercells, Rainforest Drops
 │   │   └── music-and-dance.md                <-- Underground Hip-Hop Cyphers, Contemporary Solos
+│   ├── shortfilm-director/                   <-- 5-Stage Director Methodology & 28 MIT Genre Templates
+│   │   ├── README.md                         <-- Shortfilm Director Master Index
+│   │   ├── methodology.md                    <-- 5-Stage Shot-List Methodology (Imperfections, Lens Lock, Restrained Endings)
+│   │   ├── cheatsheet.md                     <-- One-Page Reference & Reroll Budget Ratios
+│   │   ├── faq.md                            <-- Troubleshooting Likeness, IP Filters & Material Realism
+│   │   └── templates/                        <-- 28 Genre & Technique Templates (Commercial, Sci-Fi, ASMR, Micro-Drama, FPV)
+│   ├── seedance-higgsfield-playbook/         <-- 10 Commercial & Social Production Playbooks (Viral Hooks, SaaS, Luxury, AI Avatars)
+│   │   └── README.md                         <-- 10-Blueprint Index (Seedance 2.0 / Higgsfield)
 │   ├── motion-design-and-vfx/
 │   │   ├── hyperframes-code-editing.md       <-- Code-to-Video Pipeline: Whisper Sync + GSAP + HyperFrames
 │   │   ├── vox-style-motion-graphics.md      <-- Paper Collage Dioramas, Halftones, Multi-Beat Timeline
@@ -130,8 +139,17 @@ If you are an **AI Assistant, LLM Agent (Claude, ChatGPT, Gemini, Antigravity, C
 │       ├── audience-bullseye-and-hooks.md    <-- 5-Ring Audience Bullseye (3-2-2) & Hook Rubrics
 │       └── viral-script-engineering-and-linting.md <-- 150 WPM Script Pacing & Anti-AI-Tell Linting
 │
-├── audio-generation/                         <-- Studio-Master Suno & Udio Production Engine
+├── audio-generation/                         <-- Studio-Master Suno v6, ElevenLabs & Udio Production Engine
 │   ├── README.md                             <-- Audio Generation Master Index
+│   ├── suno-v6-mastery/                      <-- Suno v6/v6-wild/v6-mini, Sliders, Tags, Pronunciation & Mastering
+│   │   ├── README.md                         <-- Suno v6 Mastery Hub
+│   │   ├── models.md & creative-sliders.md   <-- Model Selection, Variety, Max Mode, Weirdness & Style Sliders
+│   │   ├── structure-tags.md, voice-tags.md  <-- Section Performance Cues, Vocal Registers & 500+ Genres
+│   │   ├── artist-blocklist.md               <-- 80+ Artist-Safe Sonic Alternatives & Phonetic Guide
+│   │   └── mastering/                        <-- Genre EQ Presets, -14 LUFS Spec & Mastering Checklists
+│   ├── cross-platform-and-tags/              <-- Cross-Platform Music Prompts & Suno Style Tag Dictionary
+│   │   ├── suno-style-tag-dictionary.md      <-- Genre, Mood, Era, Instrument, Vocal & Production Tags
+│   │   └── cross-platform-music-prompts.md   <-- Suno, Udio, MusicGen & Stable Audio Prompt Templates
 │   ├── prompt-anatomy/
 │   │   ├── seven-elements-formula.md         <-- The 7-Element Suno Formula
 │   │   ├── style-box-prompting.md            <-- Character Limit Optimization & Left-to-Right Ordering
@@ -193,6 +211,11 @@ If you are an **AI Assistant, LLM Agent (Claude, ChatGPT, Gemini, Antigravity, C
         ├── captions.py                       <-- Branded .srt & .ass Subtitle Generator
         ├── gif2mp4.py                        <-- GIF/WebP to H.264/Alpha WebM Converter
         └── edit_kit/                         <-- build.py, kinds.py, theme.py, storyboard.py, final_check.py
+    └── veo-tools/                            <-- Google Veo 3 / 3.1 Vertex AI CLI & FFmpeg Assembly/Loop Kit
+        ├── veo-generate.ts                   <-- Single-Shot Veo 3.1 Vertex AI Generator
+        ├── veo-multi-generate.ts             <-- Multi-Shot Visual DNA Batch Orchestrator
+        ├── assemble-clips.sh                 <-- FFmpeg Cut / Crossfade / Fade-Black Assembler
+        └── create-loop.sh                    <-- Forward-Reverse-Crossfade Seamless Loop Maker
 ```
 
 ---

@@ -16,11 +16,13 @@ Whenever the user types an idea for a video, motion graphic, or song, you automa
 - Direct character facial micro-performance using FACS (Facial Action Coding System) AU codes from `video-generation/frameworks/facs-facial-micro-expressions.md`.
 - Enforce Character Consistency using the Soul ID Protocol and 6-panel 3x2 reference turn-arounds from `video-generation/frameworks/character-consistency-and-soul-id.md`.
 - If Image-to-Video (I2V) or Video-to-Video (V2V): Preserve non-mutated plates and describe ONLY temporal deltas from `video-generation/frameworks/video-to-video-and-vfx-transformations.md`.
-- Dialects: Apply Kling timeline/omni-ref, Hailuo director-crew phrasing, Wan 2.1 pull-back flow, or Runway colon format as requested.
+- Dialects: Apply Kling 3.0/4.0 timeline/omni-ref, Google Veo 3/3.1 shot-list + Visual DNA (`video-generation/frameworks/veo3-prompting-guide.md`), Seedance 2.0/2.5 `@Image1/@Video1/@Audio1` references (`.claude/skills/seedance-prompt/SKILL.md`), LTX-2.5/MiniMax H3/Wan 2.2/Ovi schemas (`.claude/skills/video-prompting/SKILL.md`), Shortfilm 5-Stage genre templates (`video-generation/shortfilm-director/`), film direction & continuity (`.claude/skills/narrative-film-direction/`, `character-continuity/`), or Runway colon format as requested.
 
-2. AUDIO & SUNO/UDIO PROMPTS:
+2. AUDIO & SUNO/UDIO/ELEVENLABS PROMPTS:
 - Enforce the 7-Element formula: [Era] + [Genre] + [Mood] + [Instruments] + [Vocals] + [Production] + [BPM: XXX] + [Key: X Minor/Major].
-- Style box under 950 characters.
+- For Suno v6/v6-wild/v6-mini: Set Variety Off, use section Performance Cues (`[Verse 1 - cold regal]`), Exclude Styles, and reference `audio-generation/suno-v6-mastery/` + `.claude/skills/` (`suno-engineer`, `lyric-writer`, `pronunciation-specialist`).
+- For ElevenLabs Music (`music_v2_5`), SFX (`eleven_text_to_sound_v3`), or TTS (`eleven_v4`): Use `.claude/skills/elevenlabs-*`.
+- Style box under 950 characters (450 sweet spot).
 - Supply complete structured lyric sheets with metatags: [Intro], [Verse], [Pre-Chorus], [Chorus], [Bridge], [Outro], [End].
 - Include inline vocal tags: [Whispered], [Falsetto], [Powerhouse Vocals].
 

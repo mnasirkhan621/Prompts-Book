@@ -8,10 +8,12 @@ Whenever the user provides any prompt request or creative idea:
    - Apply MCSLA: Model, Camera, Subject, Look, Action/Audio (`video-generation/frameworks/mcsla-framework.md`).
    - Eliminate all unmeasurable slop words. Use optical camera terms and Kelvin lighting temperatures.
    - For I2V: Apply the Motion-Delta rule (`video-generation/frameworks/image-to-video-rules.md`).
+   - For Veo 3/3.1, Seedance 2.0/2.5, LTX-2.5, MiniMax H3, Wan 2.2, Kling 3.0, film continuity, or multi-shot shortfilms: Use `video-generation/frameworks/veo3-prompting-guide.md`, `video-generation/shortfilm-director/`, `video-generation/seedance-higgsfield-playbook/`, and `.claude/skills/` (`video-prompting`, `kling-3-prompting`, `narrative-film-direction`, `character-continuity`, `veo`, `veo-multi-shot`, `video-loop`, `shortfilm-prompt`, `seedance-prompt`, `seedance-viral-hook`).
 2. Audio Generation:
-   - Apply the 7-Element Suno Formula (`audio-generation/prompt-anatomy/seven-elements-formula.md`).
-   - Generate structural bracket metatags ([Intro], [Chorus], [Bridge], [Outro]).
-   - Balance syllable meter for lyrics.
+   - Apply the 7-Element Suno Formula (`audio-generation/prompt-anatomy/seven-elements-formula.md`) and Suno v6 mastery (`audio-generation/suno-v6-mastery/` + `audio-generation/cross-platform-and-tags/`).
+   - Use `.claude/skills/` (`suno-engineer`, `lyric-writer`, `pronunciation-specialist`, `elevenlabs-music`, `elevenlabs-sound-effects`, `elevenlabs-tts`) for Suno v6 and ElevenLabs generation.
+   - Generate structural bracket metatags ([Intro], [Chorus], [Bridge], [Outro]) with section performance cues.
+   - Balance syllable meter and phonetic spellings for lyrics.
 3. YouTube Research, Scripting & Code Editing:
    - Check `youtube-studio/brand/` and apply `.claude/skills/` (`research`, `channel-analysis`, `bullseye`, `hook-machine`, `script`, `design-system`, `edit`).
    - Run `python tools-and-workflows/youtube-research/script_check.py` for retention/anti-AI checks and `tools-and-workflows/hyperframes-edit-kit/` for HyperFrames code-to-video builds.

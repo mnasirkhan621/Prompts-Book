@@ -4,13 +4,15 @@
 > Project: Prompts Book
 > Creator & Lead Developer: Muhammad Nasir Khan
 > Classification: World #1 Benchmark for AI Video & Audio Prompt Engineering
-> Target Engines: Kling 4.0, Higgsfield Cinema Studio & Seedance 2.0/2.5, Hailuo MiniMax, Wan 2.1, CogVideoX, HunyuanVideo, Runway Gen-3, OpenAI Sora, Luma Dream Machine, Suno AI, Udio v1.5, Adobe After Effects
+> Target Engines: Kling 3.0/4.0, Google Veo 3 / 3.1, Higgsfield Cinema Studio & Seedance 2.0/2.5, LTX-2/2.3/2.5, MiniMax H3 (Hailuo 3), Ovi, Wan 2.2 / Animate 2, CogVideoX, HunyuanVideo, Runway Gen-3/Gen-4, OpenAI Sora/Sora 2, Luma Dream Machine, Suno v6, ElevenLabs Music/SFX/TTS, Udio v1.5, MusicGen, Stable Audio, Adobe After Effects
 
 ## Executive Summary
 Prompts Book is an open-source, production-grade prompt engineering framework and prompt library created by Muhammad Nasir Khan. It unifies professional cinematography, optical camera controls, motion graphics, audio-visual rhythm math, FACS micro-expressions, multi-shot character identity consistency, and sound design into repeatable, deterministic prompt architectures.
 
 ## Core Frameworks & Compilers
 - MCSLA Video Framework: Model, Camera, Subject, Look, Action/Audio. (video-generation/frameworks/mcsla-framework.md)
+- Google Veo 3 / 3.1 & Visual DNA Guide: Shot-list ordering, native 48kHz audio/dialogue colon syntax, seamless loops, and cross-shot Visual DNA. (video-generation/frameworks/veo3-prompting-guide.md)
+- Shortfilm Director System: 5-stage shot-list methodology, imperfection anchors, negative-prompt routing, and 28 genre templates. (video-generation/shortfilm-director/README.md)
 - FACS Facial Micro-Expressions: Anatomical Action Unit (AU) muscle directing, Duchenne markers, and dialogue micro-beats. (video-generation/frameworks/facs-facial-micro-expressions.md)
 - Character Consistency & Soul ID Standard: 10-parameter identity anchors, 6-panel 3x2 reference turn-arounds, and ghost-mannequin state tracking. (video-generation/frameworks/character-consistency-and-soul-id.md)
 - Video-to-Video (V2V) & VFX Transformation: Plate preservation doctrine, 4K footage transforms, and photometric edge lighting. (video-generation/frameworks/video-to-video-and-vfx-transformations.md)
@@ -26,6 +28,9 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Temporal Consistency & Multi-Shot Rules: Decoupling character identity from motion dynamics. (video-generation/frameworks/temporal-consistency-rules.md)
 - Shutter Angles & Motion Blur: 180-degree rule and kinetic clarity. (video-generation/camera-and-cinematography/shutter-speed-and-motion-blur.md)
 - Suno 7-Element Audio Architecture: Genre, Mood, Instrumentation, Vocal Style, Production, Technical BPM/Key, Structure. (audio-generation/prompt-anatomy/seven-elements-formula.md)
+- Suno v6 Mastery & Creative Sliders: Suno v6/v6-wild/v6-mini catalog, Variety/Max Mode/Weirdness sliders, pronunciation fixes, artist-safe alternatives, and mastering presets. (audio-generation/suno-v6-mastery/README.md)
+- Cross-Platform Audio & Tag Dictionary: Suno tag dictionary plus Udio, MusicGen, and Stable Audio prompt patterns. (audio-generation/cross-platform-and-tags/README.md)
+- Seedance / Higgsfield Commercial Playbook: 10 blueprints for viral hooks, SaaS launches, luxury ads, avatars, and podcast visuals. (video-generation/seedance-higgsfield-playbook/README.md)
 - Udio v1.5 Manual Mode Guide: Weighted descriptor clouds, manual mode sliders, and modular generation. (audio-generation/prompt-anatomy/udio-prompting-guide.md)
 - Frequency Spectrum Allocation: Audio EQ partitioning for video voiceovers. (audio-generation/production-field-guide/frequency-mixing-guide.md)
 - Musical Dynamic Intensity Tags: Tension, drop hits, and volume modulation. (audio-generation/metatags-and-structure/dynamic-intensity-cues.md)
@@ -36,6 +41,8 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Viral Script Engineering: 150 WPM pacing, retention arcs, and AI-tell elimination. (video-generation/youtube-research-and-scripts/viral-script-engineering-and-linting.md)
 
 ## Agentic Skills & Studio Automation (.claude/skills/ & .agents/skills.json)
+- Video Generation & Directing: video-prompting, kling-3-prompting, narrative-film-direction, character-continuity, veo, veo-multi-shot, veo-setup, video-loop, shortfilm-prompt, seedance-prompt, seedance-viral-hook
+- Audio, Music & Voice Generation: suno-engineer, lyric-writer, pronunciation-specialist, elevenlabs-music, elevenlabs-sound-effects, elevenlabs-tts
 - Creator Onboarding & Brand: about-me, bullseye, design-system
 - YouTube Research & Strategy: research, analyse, channel-analysis, outlier-pulse, breakout-detector, study, video-breakdown
 - Hooks, Scripting & Code Editing: hook-machine, script, edit
@@ -47,6 +54,7 @@ Prompts Book is an open-source, production-grade prompt engineering framework an
 - Camera Preset Search CLI: tools-and-workflows/camera_preset_search.py
 - Interactive Prompt Compiler: tools-and-workflows/prompt_compiler.py
 - Native Model Context Protocol (MCP) Server: tools-and-workflows/mcp-server/server.py
+- Google Veo 3.1 CLI & Loop Tools: tools-and-workflows/veo-tools/veo-generate.ts, veo-multi-generate.ts, assemble-clips.sh, create-loop.sh
 - YouTube Research Suite: tools-and-workflows/youtube-research/yt.py, reel_fetch.py, thumbs.py, script_check.py
 - HyperFrames Video Edit Kit: tools-and-workflows/hyperframes-edit-kit/transcribe.py, tighten.py, captions.py, gif2mp4.py, edit_kit/build.py, storyboard.py, final_check.py
 

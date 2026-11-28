@@ -10,11 +10,15 @@ Different AI video generation engines employ distinct text-encoder architectures
 
 | Engine | Primary Text Encoder | Dialect Style | Ideal Token Budget | Negative Prompts? | Key Strengths |
 | :--- | :--- | :--- | :--- | :---: | :--- |
-| **Kling 3.0 / 2.6** | Multimodal Diffusion | Front-weighted prose, named presets | 40 – 90 words | ❌ No | Physical realism, fluid liquid/cloth, complex anatomy |
-| **Runway Gen-3 Alpha** | Structured Multi-Stream | Tri-part bracketed/colon syntax | 30 – 60 words | ❌ No | Cinematic lighting, speed ramps, photoreal faces |
-| **OpenAI Sora** | Autoregressive Diffusion Transformer | Dense atmospheric narrative prose | 80 – 160 words | ❌ No | Physics simulation, long temporal continuity, complex camera |
+| **Kling 3.0 / 2.6** | Multimodal Diffusion | Front-weighted prose, named presets | 40 – 90 words | ✅ Field (Plain terms) | Physical realism, fluid liquid/cloth, complex anatomy |
+| **Google Veo 3 / 3.1** | Gemini Multimodal Encoder | Shot-list order + Visual DNA + colon speech | 45 – 110 words | ✅ Field (Plain nouns) | Native 48kHz audio/lip-sync, specular/lighting physics |
+| **Runway Gen-3 / Gen-4** | Structured Multi-Stream | Tri-part bracketed/colon syntax | 30 – 60 words | ❌ No (`no X` can summon X) | Cinematic lighting, speed ramps, photoreal faces |
+| **OpenAI Sora / Sora 2** | Autoregressive Diffusion Transformer | Dense atmospheric narrative prose | 80 – 160 words | ❌ Fold positive rules | Physics simulation, long temporal continuity, complex camera |
 | **Luma Dream Machine** | Video Diffusion Transformer | Trajectory keyframes (Start → End) | 40 – 80 words | ❌ No | Rapid dynamic motion, camera flythroughs |
-| **Seedance 2.0 / 4K** | Direct Director Engine | Coordinate & FOV degree blocking | 50 – 120 words | ❌ No | Frame-accurate cinematography, lens lock |
+| **Seedance 2.0 / 2.5** | Direct Director Engine | Coordinate, `@Image1/@Video1/@Audio1`, up to 30s beats | 50 – 150 words | ✅ Web field only | Frame-accurate cinematography, 30s multi-asset reference lock |
+| **LTX-2 / 2.3 / 2.5** | Lightricks DiT + Audio | Single-take prose, screenplay cuts, Dub-It | 4–8 sentences | ❌ Describe positive target | Native synced dialogue/foley, multi-shot cuts, IC-LoRA editing |
+| **MiniMax H3 (Hailuo 3)** | Structured Audiovisual Schema | `integrated_multimodal_description` + `<d>` tags | Schema-bound | ❌ Describe observables | T2VA/I2VA/FL2VA alignment, multi-speaker `<d>` audio continuity |
+| **Wan 2.2 / Wan Animate 2** | MoE Diffusion | `[Subject] + [Scene] + [Motion] + [Camera]` | 50 – 110 words | ✅ Supported | Open-weights fidelity, character animation & I2V |
 
 ---
 
@@ -94,3 +98,32 @@ Subject: Female pilot with short dark hair in a charcoal flight suit.
 Action: Sits motionless in the cockpit from 0-3s; at second 4, her eyes narrow and she pushes the throttle lever forward; holds gaze through second 8.
 Look: Emergency red console lighting contrasting with cold starfield ambient glow outside the glass.
 ```
+
+---
+
+## 6. Dialect 5: Google Veo 3 / Veo 3.1
+
+Veo 3 / 3.1 weights opening tokens most heavily and renders native 48kHz audio alongside video. Lead with shot size, single camera move, and material specificity; anchor spoken dialogue with a colon so it is not rendered as on-screen text. See [`veo3-prompting-guide.md`](veo3-prompting-guide.md) for Visual DNA multi-shot consistency.
+
+### Veo 3.1 Syntax Formula:
+```text
+[Shot Size & Camera Move], [Lens & Angle], [Subject with Material Texture], [Single Action], [Context & Time], [Visual DNA Lighting & Palette]. Audio: [Ambient/SFX]. [Speaker] speaks [tone]: "[Line]"
+```
+
+### Veo 3.1 Production Example:
+```text
+Medium close-up, slow dolly forward, 35mm lens with shallow depth of field.
+A weathered watchmaker with silver stubble and oil-smudged fingertips adjusts a brass gear with steel tweezers inside a dim workshop at dusk.
+Warm 3200K desk lamp side-light, lifted blacks, subtle 35mm grain.
+Audio: quiet room tone, delicate metallic tweezer click, steady mechanical ticking. Watchmaker speaks softly: "One tooth off, and the whole week drifts."
+```
+
+---
+
+## 7. Next-Gen 2026 Models (Seedance 2.5, LTX-2.5, MiniMax H3, Ovi, Wan 2.2)
+
+Complete per-model prompting rules, screenplay formats, `<d>` speech tags, and official reference examples live in [`.claude/skills/video-prompting/SKILL.md`](../../.claude/skills/video-prompting/SKILL.md):
+* **Seedance 2.5:** [`references/models/seedance2-5/prompting.md`](../../.claude/skills/video-prompting/references/models/seedance2-5/prompting.md) (4–30s continuous takes, up to 50 `@Image/@Video/@Audio` references, cause-before-reaction beats)
+* **LTX-2.5:** [`references/models/ltx2-5/prompting.md`](../../.claude/skills/video-prompting/references/models/ltx2-5/prompting.md) (Single-shot flow, explicit cut transitions, screenplay dialogue, Dub-It speech replacement)
+* **MiniMax H3 (Hailuo 3):** [`references/models/minimax-h3/prompting.md`](../../.claude/skills/video-prompting/references/models/minimax-h3/prompting.md) (`integrated_multimodal_description`, `overall_soundscape`, `non_diegetic_music`, and `<d>[English] ... </d>` speech tags)
+* **Ovi & Wan 2.2 / Animate 2:** [`references/models/ovi/prompting.md`](../../.claude/skills/video-prompting/references/models/ovi/prompting.md) & [`references/models/wan22/prompting.md`](../../.claude/skills/video-prompting/references/models/wan22/prompting.md)
